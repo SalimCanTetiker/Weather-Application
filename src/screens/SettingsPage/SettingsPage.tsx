@@ -2,7 +2,7 @@ import { View, Text } from 'react-native'
 
 const SettingsPage = () => {
   return (
-    <View>
+    <View style={{backgroundColor: "#489bff", flex: 1}}>
       <Text>SettingsPage</Text>
     </View>
   )

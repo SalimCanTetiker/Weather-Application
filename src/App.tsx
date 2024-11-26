@@ -1,10 +1,8 @@
-import { View, Text } from 'react-native'
+import RootNavigation from './navigators/RootNavigation'
 
 const App = () => {
   return (
-    <View style={{alignItems: "center", justifyContent: "center", flex: 1, backgroundColor: "#489bff"}}>
-      <Text>App</Text>
-    </View>
+    <RootNavigation />
   )
 }
 
